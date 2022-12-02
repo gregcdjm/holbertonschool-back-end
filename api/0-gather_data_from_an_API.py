@@ -8,7 +8,7 @@ if __name__ == '__main__':
     if len(argv) >= 2:
         employee_id = argv[1]
 
-    if employee_id:
+    if employee_id is None:
         exit()
 
     userId = {'userId': employee_id}
